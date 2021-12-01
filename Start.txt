@@ -1,0 +1,34 @@
+pachage BullsAndCows;// объявил пакет
+import java.lang.System;//список библиотек
+public class Start 
+{     // объявил класс
+public static void main(String[] args){
+
+System.out.println("Приветствуем в игре: "Быки и Коровы"!);
+System.out.println("Игрок1, выберете уровень игры:");
+System.out.println("2" - если хотите загодать двузначное число");
+System.out.println("3" - если хотите загодать трехзначное число");
+System.out.println("4" - если хотите загодать четерехзначное число и нажмите Enter");
+System.out.println("И нажмите "Enter"");
+Scanner console = new Scanner(System.in);  // создаю объект Scanner
+int level = console.nextInt();
+
+if (level = "2"){
+	Level.Number2();
+	BullsAndCows.CountLevel2();
+}
+
+if (level = "3"){
+	Level.Number3();
+	BullsAndCows.CountLevel3();
+}
+
+if (level = "4"){
+	Level.Number4();	
+	BullsAndCows.CountLevel4();
+}
+else
+System.out.println("Введите число 2, 3 или 4");
+
+	}
+}

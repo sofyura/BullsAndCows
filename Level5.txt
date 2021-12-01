@@ -1,0 +1,10 @@
+package BullsAndCows;// объ€вил пакет
+import java.util.Scanner;//список библиотек
+public class Level5 
+{    
+public static void Player1(){
+	System.out.println("»грок1 выбрал уровень сложности 5");
+	System.out.println("»грок1, введите загаданное число, но не показывайте его »гроку2:");
+	Scanner console = new Scanner(System.in);  // создаю объект Scanner
+	while (console.hasNextString()){	
+		String p1 = console.nextString();  // читаю с клавиатуры число »грока1
